@@ -1,0 +1,21 @@
+# Credentials come ONLY from env vars DASH_USER and DASH_PASS_HASH (bcrypt).
+# entrypoint.sh refuses to start Caddy if either is missing.
+{
+	admin off
+	auto_https off
+}
+
+:{$PORT:80} {
+	root * {$SITE_ROOT:/srv}
+	basic_auth {
+		{$DASH_USER} {$DASH_PASS_HASH}
+	}
+	header {
+		X-Content-Type-Options nosniff
+		X-Frame-Options DENY
+		Referrer-Policy no-referrer
+		Cache-Control "no-store"
+		-Server
+	}
+	file_server
+}

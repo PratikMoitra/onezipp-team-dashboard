@@ -1,0 +1,799 @@
+{
+ "generated": "2026-10-27 16:58",
+ "horizon_days": 14,
+ "counts": {
+  "tasks": 49,
+  "by_status": {
+   "open": 18,
+   "blocked": 8,
+   "not started": 1,
+   "done": 21,
+   "waiting": 1
+  },
+  "decisions": 60,
+  "open_unknowns": 26,
+  "redacted": 37
+ },
+ "tasks_by_owner": {
+  "Damon": {
+   "open": 1,
+   "done": 2,
+   "blocked": 1
+  },
+  "Elijah": {
+   "open": 1,
+   "done": 3
+  },
+  "Elina": {
+   "open": 2,
+   "done": 5,
+   "waiting": 1
+  },
+  "Jarvis": {
+   "open": 9,
+   "blocked": 5,
+   "done": 6
+  },
+  "Klaus": {
+   "blocked": 1,
+   "done": 1,
+   "open": 4
+  },
+  "Stefan": {
+   "done": 3,
+   "blocked": 1
+  },
+  "Unassigned": {
+   "not started": 1,
+   "done": 1,
+   "open": 1
+  }
+ },
+ "tasks": [
+  {
+   "id": "T1",
+   "title": "Get handover docs readable by Klaus",
+   "owner": "Jarvis",
+   "status": "open",
+   "deadline": null
+  },
+  {
+   "id": "T2",
+   "title": "Summarize docs into facts, risks, open questions",
+   "owner": "Klaus",
+   "status": "blocked",
+   "deadline": null
+  },
+  {
+   "id": "T3",
+   "title": "(redacted)",
+   "owner": "Unassigned",
+   "status": "not started",
+   "deadline": null
+  },
+  {
+   "id": "T4",
+   "title": "30-day plan drafted",
+   "owner": "Klaus",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T5",
+   "title": "Pipeline view + weekly bid math built",
+   "owner": "Klaus",
+   "status": "open",
+   "deadline": null
+  },
+  {
+   "id": "T6",
+   "title": "Scenario B added to quarter_plan.md",
+   "owner": "Elina",
+   "status": "open",
+   "deadline": null
+  },
+  {
+   "id": "T7",
+   "title": "Cold outreach plan",
+   "owner": "Klaus",
+   "status": "open",
+   "deadline": "2026-10-30"
+  },
+  {
+   "id": "T8",
+   "title": "quarter_plan.md v1 finalised 2026-10-27",
+   "owner": "Unassigned",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T9",
+   "title": "Pipeline stages beyond lead",
+   "owner": "Jarvis",
+   "status": "blocked",
+   "deadline": null
+  },
+  {
+   "id": "T10",
+   "title": "outreach_plan.md v1 written 2026-10-27",
+   "owner": "Elina",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T11",
+   "title": "options/klaus_matrix.md = one matrix of 5 directions with columns…",
+   "owner": "Klaus",
+   "status": "open",
+   "deadline": "2026-10-28"
+  },
+  {
+   "id": "T11",
+   "title": "status",
+   "owner": "Unassigned",
+   "status": "open",
+   "deadline": null
+  },
+  {
+   "id": "T12",
+   "title": "(redacted)",
+   "owner": "Elina",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T13",
+   "title": "matrix wording for the Medusa health check",
+   "owner": "Damon",
+   "status": "open",
+   "deadline": "2026-11-06"
+  },
+  {
+   "id": "T14",
+   "title": "CLOSED, decided by Jarvis",
+   "owner": "Jarvis",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T15",
+   "title": "Damon",
+   "owner": "Damon",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T16",
+   "title": "FX",
+   "owner": "Elijah",
+   "status": "open",
+   "deadline": "2026-11-06"
+  },
+  {
+   "id": "T17",
+   "title": "Norway hours settled at 4 h/week inside the 7/4/1/2 split",
+   "owner": "Elina",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T18",
+   "title": "(redacted)",
+   "owner": "Damon",
+   "status": "blocked",
+   "deadline": null
+  },
+  {
+   "id": "T19",
+   "title": "Closed",
+   "owner": "Elijah",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T20",
+   "title": "Matrix conflicts closed",
+   "owner": "Stefan",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T21",
+   "title": "(redacted)",
+   "owner": "Damon",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T22",
+   "title": "(redacted)",
+   "owner": "Stefan",
+   "status": "blocked",
+   "deadline": null
+  },
+  {
+   "id": "T23",
+   "title": "FINAL v1.2 options matrix and 30-day plan for Jarvis review is at…",
+   "owner": "Klaus",
+   "status": "open",
+   "deadline": null
+  },
+  {
+   "id": "T23b",
+   "title": "#33 partly resolved",
+   "owner": "Stefan",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T24",
+   "title": "events ~3 h accepted, one a week, never in a client-deadline week",
+   "owner": "Jarvis",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T25",
+   "title": "Elijah closed #29 and #30",
+   "owner": "Elijah",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T26",
+   "title": "(redacted)",
+   "owner": "Jarvis",
+   "status": "open",
+   "deadline": null
+  },
+  {
+   "id": "T27",
+   "title": "(redacted)",
+   "owner": "Elina",
+   "status": "waiting",
+   "deadline": null
+  },
+  {
+   "id": "T28",
+   "title": "(redacted)",
+   "owner": "Jarvis",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T29",
+   "title": "#33 closed by Stefan",
+   "owner": "Stefan",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T30",
+   "title": "Elina checked paste-ready upwork_profile.md",
+   "owner": "Elina",
+   "status": "open",
+   "deadline": null
+  },
+  {
+   "id": "T31",
+   "title": "Elina applied D26 and A2/A3 estimate-only in her files",
+   "owner": "Elina",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T32",
+   "title": "custom bids #1, #3 and add-on N estimate-only",
+   "owner": "Jarvis",
+   "status": "blocked",
+   "deadline": null
+  },
+  {
+   "id": "T33",
+   "title": "(redacted)",
+   "owner": "Jarvis",
+   "status": "open",
+   "deadline": "2026-11-06"
+  },
+  {
+   "id": "T34",
+   "title": "(redacted)",
+   "owner": "Jarvis",
+   "status": "open",
+   "deadline": null
+  },
+  {
+   "id": "T35",
+   "title": "D28 confirmed by Elijah",
+   "owner": "Elijah",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T36",
+   "title": "role split",
+   "owner": "Jarvis",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T37",
+   "title": "(redacted)",
+   "owner": "Jarvis",
+   "status": "open",
+   "deadline": null
+  },
+  {
+   "id": "T38",
+   "title": "logged as F20",
+   "owner": "Jarvis",
+   "status": "open",
+   "deadline": null
+  },
+  {
+   "id": "T39",
+   "title": "T38 answered by F21",
+   "owner": "Jarvis",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T40",
+   "title": "delete-and-re-add approved for the n8n entries",
+   "owner": "Jarvis",
+   "status": "open",
+   "deadline": null
+  },
+  {
+   "id": "T41",
+   "title": "'Open for work' dialog read was PARTIAL. Upwork profile showed error…",
+   "owner": "Jarvis",
+   "status": "open",
+   "deadline": null
+  },
+  {
+   "id": "T42",
+   "title": "Upwork profile errors began when two agents loaded the profile at once",
+   "owner": "Jarvis",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T43",
+   "title": "re-grep for 'CCIE-certified' done after Elina's pass",
+   "owner": "Elina",
+   "status": "done",
+   "deadline": null
+  },
+  {
+   "id": "T44",
+   "title": "moved stale uploads/upwork_overview_final.bak_1600.txt to…",
+   "owner": "Jarvis",
+   "status": "open",
+   "deadline": null
+  },
+  {
+   "id": "T45",
+   "title": "nobody uses the team browser for Upwork",
+   "owner": "Jarvis",
+   "status": "blocked",
+   "deadline": null
+  },
+  {
+   "id": "T46",
+   "title": "Upwork access blocked for all browsers",
+   "owner": "Jarvis",
+   "status": "blocked",
+   "deadline": "2026-11-06"
+  },
+  {
+   "id": "T47",
+   "title": "report every relevant result, finding, blocker or deadline to Jarvis…",
+   "owner": "Jarvis",
+   "status": "blocked",
+   "deadline": "2026-10-30"
+  }
+ ],
+ "deadlines": [
+  {
+   "owner": "Stefan",
+   "date": "2026-10-28",
+   "time": "",
+   "what": "(redacted)"
+  },
+  {
+   "owner": "Elijah",
+   "date": "2026-10-28",
+   "time": "",
+   "what": "Package_Tiers"
+  },
+  {
+   "owner": "Damon",
+   "date": "2026-10-28",
+   "time": "",
+   "what": "portfolio draft + estimates file"
+  },
+  {
+   "owner": "Klaus",
+   "date": "2026-10-28",
+   "time": "",
+   "what": "T11 options/klaus_matrix.md = one matrix of 5 directions with columns…"
+  },
+  {
+   "owner": "Elina",
+   "date": "2026-10-28",
+   "time": "12:00",
+   "what": "mid-tier packages"
+  },
+  {
+   "owner": "Klaus",
+   "date": "2026-10-28",
+   "time": "18:00",
+   "what": "one-quarter plan at quarter_plan.md"
+  },
+  {
+   "owner": "Elina",
+   "date": "2026-10-29",
+   "time": "12:00",
+   "what": "Upwork profile rewrite + 3 draft proposals"
+  },
+  {
+   "owner": "Elina",
+   "date": "2026-10-29",
+   "time": "18:00",
+   "what": "outreach segments, drafts/scripts and public-source lead…"
+  },
+  {
+   "owner": "Stefan",
+   "date": "2026-10-30",
+   "time": "",
+   "what": "(redacted)"
+  },
+  {
+   "owner": "Elina",
+   "date": "2026-10-30",
+   "time": "",
+   "what": "from 30 Oct 4 bid-ready proposal drafts per week, each…"
+  },
+  {
+   "owner": "Klaus",
+   "date": "2026-10-30",
+   "time": "",
+   "what": "T7 Cold outreach plan"
+  },
+  {
+   "owner": "Jarvis",
+   "date": "2026-10-30",
+   "time": "",
+   "what": "T47 report every relevant result, finding, blocker or deadline to Jarvis…"
+  },
+  {
+   "owner": "Klaus",
+   "date": "2026-11-02",
+   "time": "",
+   "what": "weekly pipeline report each Monday from 2 Nov"
+  },
+  {
+   "owner": "Elijah",
+   "date": "2026-11-02",
+   "time": "",
+   "what": "weekly finance report"
+  },
+  {
+   "owner": "Stefan",
+   "date": "2026-11-04",
+   "time": "",
+   "what": "(redacted)"
+  },
+  {
+   "owner": "Damon",
+   "date": "2026-11-06",
+   "time": "",
+   "what": "Medusa Store Health Check ready Fri 6 Nov"
+  },
+  {
+   "owner": "Damon",
+   "date": "2026-11-06",
+   "time": "",
+   "what": "T13 matrix wording for the Medusa health check"
+  },
+  {
+   "owner": "Elijah",
+   "date": "2026-11-06",
+   "time": "",
+   "what": "T16 FX"
+  },
+  {
+   "owner": "Jarvis",
+   "date": "2026-11-06",
+   "time": "",
+   "what": "T33 (redacted)"
+  },
+  {
+   "owner": "Jarvis",
+   "date": "2026-11-06",
+   "time": "",
+   "what": "T46 Upwork access blocked for all browsers"
+  }
+ ],
+ "pipeline": [
+  {
+   "stage": "Lead",
+   "count": 10
+  },
+  {
+   "stage": "Proposal sent",
+   "count": 0
+  },
+  {
+   "stage": "Reply",
+   "count": 0
+  },
+  {
+   "stage": "Call",
+   "count": 0
+  },
+  {
+   "stage": "Contract",
+   "count": 0
+  },
+  {
+   "stage": "Delivered",
+   "count": 0
+  },
+  {
+   "stage": "(redacted)",
+   "count": 0
+  }
+ ],
+ "decisions": [
+  {
+   "number": "D1",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D1",
+   "title": "update"
+  },
+  {
+   "number": "D2",
+   "title": "Performance management"
+  },
+  {
+   "number": "D3",
+   "title": "Escalation rule"
+  },
+  {
+   "number": "D1",
+   "title": "update 2"
+  },
+  {
+   "number": "D4",
+   "title": "Cold outreach ownership"
+  },
+  {
+   "number": "D2b",
+   "title": "Outreach channel rules"
+  },
+  {
+   "number": "D5b",
+   "title": "Upwork AI wording"
+  },
+  {
+   "number": "D2b",
+   "title": "update"
+  },
+  {
+   "number": "D3b",
+   "title": "Proposal wording on AI use"
+  },
+  {
+   "number": "D1",
+   "title": "update 3"
+  },
+  {
+   "number": "D1",
+   "title": "dissent on record"
+  },
+  {
+   "number": "D4b",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D5",
+   "title": "naming"
+  },
+  {
+   "number": "D6",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D7",
+   "title": "Upwork profile has almost no social proof"
+  },
+  {
+   "number": "D8",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D8",
+   "title": "update"
+  },
+  {
+   "number": "D6",
+   "title": "update"
+  },
+  {
+   "number": "D9",
+   "title": "TOP-LEVEL RULE"
+  },
+  {
+   "number": "D10",
+   "title": "Gate rules for Fri 6 Nov"
+  },
+  {
+   "number": "D11",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D1",
+   "title": "update 4: ownership"
+  },
+  {
+   "number": "D12",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D13",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D14",
+   "title": "Stefan's scope broadened"
+  },
+  {
+   "number": "D16",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D15",
+   "title": "Store sentence removed from cold outreach"
+  },
+  {
+   "number": "D17",
+   "title": "Housekeeping decisions"
+  },
+  {
+   "number": "D18",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D19",
+   "title": "GitHub ownership assigned to Damon"
+  },
+  {
+   "number": "D20",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D20",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D20",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D21",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D20",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D18",
+   "title": "update: hostname and route"
+  },
+  {
+   "number": "D18",
+   "title": "update 2: / D20 update 4"
+  },
+  {
+   "number": "D19",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D22",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D23",
+   "title": "rulings from the Elina/Klaus reconciliation"
+  },
+  {
+   "number": "D24",
+   "title": "Upwork profile stays SOLO, no Onezipp name on the profile"
+  },
+  {
+   "number": "D25",
+   "title": "Order automation package is ESTIMATE-ONLY"
+  },
+  {
+   "number": "D26",
+   "title": "Rate floor rules"
+  },
+  {
+   "number": "D27",
+   "title": "Estimate-only extends to custom bids #1 and #3 and add-on N. C1 stays HOLD.…"
+  },
+  {
+   "number": "D28",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D29",
+   "title": "Role split"
+  },
+  {
+   "number": "D28",
+   "title": "result"
+  },
+  {
+   "number": "D30",
+   "title": "Upwork profile n8n entries"
+  },
+  {
+   "number": "D31",
+   "title": "STOP on Upwork from the team's browser"
+  },
+  {
+   "number": "D31",
+   "title": "update"
+  },
+  {
+   "number": "D32",
+   "title": "Upwork automation research result"
+  },
+  {
+   "number": "D33",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D34",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D35",
+   "title": "(redacted)"
+  },
+  {
+   "number": "D36",
+   "title": "Dashboard status and rulings"
+  },
+  {
+   "number": "D37",
+   "title": "Telegram bridge"
+  },
+  {
+   "number": "D38",
+   "title": "Parallel channels"
+  },
+  {
+   "number": "D39",
+   "title": "Proactive updates incl"
+  },
+  {
+   "number": "D40",
+   "title": "(redacted)"
+  }
+ ],
+ "next_steps": {
+  "Jarvis": "T47: report every relevant result, finding, blocker or deadline to Jarvis…",
+  "Klaus": "one-quarter plan at quarter_plan.md by Wed 28 Oct 18:00 Oslo",
+  "Damon": "portfolio draft + estimates file by Wed 28 Oct",
+  "Elina": "mid-tier packages by Wed 28 Oct 12:00",
+  "Elijah": "Package_Tiers by Wed 28 Oct",
+  "Stefan": "(redacted)"
+ }
+}

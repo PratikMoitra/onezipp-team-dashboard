@@ -1,0 +1,5 @@
+.git
+*.env
+.env*
+export_data.py
+README.md
